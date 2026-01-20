@@ -1,13 +1,10 @@
-# Node.js Authentication API (MVC)
+## 🚀 Postman Documentation
+You can test the live API endpoints using the link below:
 
-A backend authentication system with secure password hashing and JWT authorization.
+**API Documentation Link:** [https://aadhithya799-9293435.postman.co/workspace/Aadhithya-R's-Workspace~119cbc1e-3df9-4a4a-818a-393f1e222025/collection/51559476-4350e523-5d2d-4dbc-a536-0381bc5661fe?action=share&source=copy-link&creator=51559476]
 
-## Features
-- **MVC Architecture**: Organized into Models, Controllers, and Routes.
-- **Secure Hashing**: Passwords stored using Bcrypt.
-- **Protected Routes**: Profile access restricted via JWT middleware.
-
-## API Endpoints
-- `POST /api/register`: Creates a new user.
-- `POST /api/login`: Verifies user and returns a Bearer Token.
-- `GET /api/profile`: Returns user data (Requires Bearer Token).
+### How to use:
+1. Open the link to see the saved requests.
+2. Use **POST /api/register** to create a user.
+3. Use **POST /api/login** to get your JWT token.
+4. Use the token as a **Bearer Token** to access **GET /api/profile**.
